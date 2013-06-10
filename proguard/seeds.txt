@@ -1,0 +1,369 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+net.tidalsource.on.the.road.sms.About
+net.tidalsource.on.the.road.sms.About: About()
+net.tidalsource.on.the.road.sms.About: void onCreate(android.os.Bundle)
+net.tidalsource.on.the.road.sms.App
+net.tidalsource.on.the.road.sms.App: android.speech.tts.TextToSpeech myTTS
+net.tidalsource.on.the.road.sms.App: net.tidalsource.on.the.road.sms.MyMessage myMessage
+net.tidalsource.on.the.road.sms.App: net.tidalsource.on.the.road.sms.MyPrefs myPrefs
+net.tidalsource.on.the.road.sms.App: net.tidalsource.on.the.road.sms.MyAudio myAudio
+net.tidalsource.on.the.road.sms.App: App()
+net.tidalsource.on.the.road.sms.App: void onCreate()
+net.tidalsource.on.the.road.sms.App2
+net.tidalsource.on.the.road.sms.App2: App2()
+net.tidalsource.on.the.road.sms.App2: void onCreate()
+net.tidalsource.on.the.road.sms.BuildConfig
+net.tidalsource.on.the.road.sms.BuildConfig: boolean DEBUG
+net.tidalsource.on.the.road.sms.BuildConfig: BuildConfig()
+net.tidalsource.on.the.road.sms.CONST
+net.tidalsource.on.the.road.sms.CONST: java.lang.String SETTINGS
+net.tidalsource.on.the.road.sms.CONST: java.lang.String TAG
+net.tidalsource.on.the.road.sms.CONST: int IS_FIRST_RUN
+net.tidalsource.on.the.road.sms.CONST: int APP_VERSION
+net.tidalsource.on.the.road.sms.CONST: java.lang.String PREF_NAME
+net.tidalsource.on.the.road.sms.CONST: int PLAYBACK_LANG
+net.tidalsource.on.the.road.sms.CONST: int APP_VOLUME
+net.tidalsource.on.the.road.sms.CONST: int REPLY_MSG_1
+net.tidalsource.on.the.road.sms.CONST: int REPLY_MSG_2
+net.tidalsource.on.the.road.sms.CONST: int CLEAR_REPEAT
+net.tidalsource.on.the.road.sms.CONST: int AFTER_HOURS_A
+net.tidalsource.on.the.road.sms.CONST: int AFTER_HOURS_B
+net.tidalsource.on.the.road.sms.CONST: int AFTER_HOURS_ENABLED
+net.tidalsource.on.the.road.sms.CONST: int RECORDING_LANGUAGE
+net.tidalsource.on.the.road.sms.CONST: int APP_MODE
+net.tidalsource.on.the.road.sms.CONST: int MODE_DISABLED
+net.tidalsource.on.the.road.sms.CONST: int MODE_AUTO_READ_MSG
+net.tidalsource.on.the.road.sms.CONST: int MODE_BRING_TO_FRONT
+net.tidalsource.on.the.road.sms.CONST: int MISSED_MESSAGE
+net.tidalsource.on.the.road.sms.CONST: int IN_PAUSED_MODE
+net.tidalsource.on.the.road.sms.CONST: int MESSAGE_MAYBE_SENT
+net.tidalsource.on.the.road.sms.CONST: int RESTORE_TO_VOL
+net.tidalsource.on.the.road.sms.CONST: int LAST_PLAYED_MSG_ID
+net.tidalsource.on.the.road.sms.CONST: int LAST_MSG_ID_BEFORE_REPLY
+net.tidalsource.on.the.road.sms.CONST: int AVAILABLE_REC_LANGUAGES
+net.tidalsource.on.the.road.sms.CONST: int AVAILABLE_REC_LANG_IDS
+net.tidalsource.on.the.road.sms.CONST: int LOOKUP_MAX_LOOP
+net.tidalsource.on.the.road.sms.CONST: int THREAD_SLEEP_MILLIS
+net.tidalsource.on.the.road.sms.CONST: int DELAYED_CLOUSURE_1
+net.tidalsource.on.the.road.sms.CONST: int DELAYED_CLOUSURE_2
+net.tidalsource.on.the.road.sms.CONST: int AUDIO_CHECK_CODE
+net.tidalsource.on.the.road.sms.CONST: int SETTINGS_CHECK_CODE
+net.tidalsource.on.the.road.sms.CONST: int NOTIFICATION_ID
+net.tidalsource.on.the.road.sms.CONST: CONST()
+net.tidalsource.on.the.road.sms.MyAudio
+net.tidalsource.on.the.road.sms.MyAudio: int MY_STREAM
+net.tidalsource.on.the.road.sms.MyAudio: android.media.AudioManager audioMgr
+net.tidalsource.on.the.road.sms.MyAudio: boolean hasStreamVolBeenSaved
+net.tidalsource.on.the.road.sms.MyAudio: android.os.AsyncTask myAsyncTask
+net.tidalsource.on.the.road.sms.MyAudio: int mediaVol
+net.tidalsource.on.the.road.sms.MyAudio: int myAppVol
+net.tidalsource.on.the.road.sms.MyAudio: MyAudio(android.content.Context)
+net.tidalsource.on.the.road.sms.MyAudio: void initPlayback(int)
+net.tidalsource.on.the.road.sms.MyAudio: void saveStreamVol(int)
+net.tidalsource.on.the.road.sms.MyAudio: void restoreStreamVol()
+net.tidalsource.on.the.road.sms.MyAudio: void utteranceComplete()
+net.tidalsource.on.the.road.sms.MyAudio: void successTTSInit(java.lang.String)
+net.tidalsource.on.the.road.sms.MyAudio: void setTTSLanguage()
+net.tidalsource.on.the.road.sms.MyAudio: void speakMessage(int)
+net.tidalsource.on.the.road.sms.MyAudio: void speakQuickMessage(java.lang.String)
+net.tidalsource.on.the.road.sms.MyAudio: void speakMessage(java.util.HashMap,int,java.lang.String)
+net.tidalsource.on.the.road.sms.MyHapticFeedback
+net.tidalsource.on.the.road.sms.MyHapticFeedback: MyHapticFeedback()
+net.tidalsource.on.the.road.sms.MyHapticFeedback: boolean onTouch(android.view.View,android.view.MotionEvent)
+net.tidalsource.on.the.road.sms.MyMessage
+net.tidalsource.on.the.road.sms.MyMessage: java.util.HashMap playbackMsg
+net.tidalsource.on.the.road.sms.MyMessage: MyMessage(android.content.Context)
+net.tidalsource.on.the.road.sms.MyMessage: int getMessageFromDb(int)
+net.tidalsource.on.the.road.sms.MyMessage: java.lang.String getContactName(java.lang.String)
+net.tidalsource.on.the.road.sms.MyMessage: boolean delayWhileMsgArrives(int,int)
+net.tidalsource.on.the.road.sms.MyMessage: void setMessageFromBundle(android.os.Bundle)
+net.tidalsource.on.the.road.sms.MyPrefs
+net.tidalsource.on.the.road.sms.MyPrefs: android.content.SharedPreferences prefs
+net.tidalsource.on.the.road.sms.MyPrefs: android.content.Context context
+net.tidalsource.on.the.road.sms.MyPrefs: android.content.res.Resources res
+net.tidalsource.on.the.road.sms.MyPrefs: MyPrefs(android.content.Context)
+net.tidalsource.on.the.road.sms.MyPrefs: java.lang.Object getVal(int)
+net.tidalsource.on.the.road.sms.MyPrefs: boolean putVal(int,java.lang.Object)
+net.tidalsource.on.the.road.sms.Playback
+net.tidalsource.on.the.road.sms.Playback: boolean isTTSActive
+net.tidalsource.on.the.road.sms.Playback: Playback()
+net.tidalsource.on.the.road.sms.Playback: void onCreate(android.os.Bundle)
+net.tidalsource.on.the.road.sms.Playback: void onResume()
+net.tidalsource.on.the.road.sms.Playback: boolean poppedUpAboutPage()
+net.tidalsource.on.the.road.sms.Playback: void onNewIntent(android.content.Intent)
+net.tidalsource.on.the.road.sms.Playback: void onPause()
+net.tidalsource.on.the.road.sms.Playback: void onDestroy()
+net.tidalsource.on.the.road.sms.Playback: void startedByIntent(android.os.Bundle,boolean)
+net.tidalsource.on.the.road.sms.Playback: void updateNotification(int)
+net.tidalsource.on.the.road.sms.Playback: void modeButtonClicked(android.view.View)
+net.tidalsource.on.the.road.sms.Playback: void setModeButtonText(int)
+net.tidalsource.on.the.road.sms.Playback: void updateButtonDrawable(int,android.widget.Button,int)
+net.tidalsource.on.the.road.sms.Playback: void mainButtonClicked(android.view.View)
+net.tidalsource.on.the.road.sms.Playback: void appStatus(boolean,boolean,boolean,java.lang.String)
+net.tidalsource.on.the.road.sms.Playback: void replyMenuButtonClicked(android.view.View)
+net.tidalsource.on.the.road.sms.Playback: boolean onCreateOptionsMenu(android.view.Menu)
+net.tidalsource.on.the.road.sms.Playback: boolean onOptionsItemSelected(android.view.MenuItem)
+net.tidalsource.on.the.road.sms.Playback: void onActivityResult(int,int,android.content.Intent)
+net.tidalsource.on.the.road.sms.Playback: void askUserToInstallTTS()
+net.tidalsource.on.the.road.sms.Playback: void onInit(int)
+net.tidalsource.on.the.road.sms.Playback: void preSpeakMessage(int)
+net.tidalsource.on.the.road.sms.Playback$delayedClosure
+net.tidalsource.on.the.road.sms.Playback$delayedClosure: Playback$delayedClosure(net.tidalsource.on.the.road.sms.Playback)
+net.tidalsource.on.the.road.sms.Playback$delayedClosure: void run()
+net.tidalsource.on.the.road.sms.Playback$postPlayRunnable
+net.tidalsource.on.the.road.sms.Playback$postPlayRunnable: Playback$postPlayRunnable(net.tidalsource.on.the.road.sms.Playback)
+net.tidalsource.on.the.road.sms.Playback$postPlayRunnable: void run()
+net.tidalsource.on.the.road.sms.PlaybackButton
+net.tidalsource.on.the.road.sms.PlaybackButton: PlaybackButton(android.content.Context,android.util.AttributeSet)
+net.tidalsource.on.the.road.sms.PlaybackButton: void onFinishInflate()
+net.tidalsource.on.the.road.sms.PlaybackButton: void textTitle(java.lang.String)
+net.tidalsource.on.the.road.sms.PlaybackButton: void textBody(java.lang.String)
+net.tidalsource.on.the.road.sms.Preferences
+net.tidalsource.on.the.road.sms.Preferences: Preferences()
+net.tidalsource.on.the.road.sms.Preferences: void onCreate(android.os.Bundle)
+net.tidalsource.on.the.road.sms.Preferences: void onResume()
+net.tidalsource.on.the.road.sms.Preferences: void doLanguagePreps()
+net.tidalsource.on.the.road.sms.Preferences: void onDestroy()
+net.tidalsource.on.the.road.sms.Preferences: android.app.Dialog onCreateDialog(int)
+net.tidalsource.on.the.road.sms.Preferences: java.lang.CharSequence getLanguageDisplayName(java.lang.String)
+net.tidalsource.on.the.road.sms.R
+net.tidalsource.on.the.road.sms.R: R()
+net.tidalsource.on.the.road.sms.R$array
+net.tidalsource.on.the.road.sms.R$array: int LANGUAGE_IDS
+net.tidalsource.on.the.road.sms.R$array: int LANGUAGE_NAMES
+net.tidalsource.on.the.road.sms.R$array: R$array()
+net.tidalsource.on.the.road.sms.R$attr
+net.tidalsource.on.the.road.sms.R$attr: R$attr()
+net.tidalsource.on.the.road.sms.R$color
+net.tidalsource.on.the.road.sms.R$color: int main_color
+net.tidalsource.on.the.road.sms.R$color: R$color()
+net.tidalsource.on.the.road.sms.R$dimen
+net.tidalsource.on.the.road.sms.R$dimen: int padding_large
+net.tidalsource.on.the.road.sms.R$dimen: int padding_medium
+net.tidalsource.on.the.road.sms.R$dimen: int padding_small
+net.tidalsource.on.the.road.sms.R$dimen: R$dimen()
+net.tidalsource.on.the.road.sms.R$drawable
+net.tidalsource.on.the.road.sms.R$drawable: int btnblank
+net.tidalsource.on.the.road.sms.R$drawable: int btncancel
+net.tidalsource.on.the.road.sms.R$drawable: int btnmicrophone
+net.tidalsource.on.the.road.sms.R$drawable: int btnplay
+net.tidalsource.on.the.road.sms.R$drawable: int btnreply
+net.tidalsource.on.the.road.sms.R$drawable: int btnstop
+net.tidalsource.on.the.road.sms.R$drawable: int button_enabled
+net.tidalsource.on.the.road.sms.R$drawable: int button_pressed
+net.tidalsource.on.the.road.sms.R$drawable: int button_states
+net.tidalsource.on.the.road.sms.R$drawable: int fill_background
+net.tidalsource.on.the.road.sms.R$drawable: int fill_progress
+net.tidalsource.on.the.road.sms.R$drawable: int ic_about
+net.tidalsource.on.the.road.sms.R$drawable: int ic_settings
+net.tidalsource.on.the.road.sms.R$drawable: int icon
+net.tidalsource.on.the.road.sms.R$drawable: int icon_med
+net.tidalsource.on.the.road.sms.R$drawable: int layout_background
+net.tidalsource.on.the.road.sms.R$drawable: int modedisabled
+net.tidalsource.on.the.road.sms.R$drawable: int modemute
+net.tidalsource.on.the.road.sms.R$drawable: int modeplay
+net.tidalsource.on.the.road.sms.R$drawable: int progress
+net.tidalsource.on.the.road.sms.R$drawable: int statusfront
+net.tidalsource.on.the.road.sms.R$drawable: int statusplay
+net.tidalsource.on.the.road.sms.R$drawable: int volknob
+net.tidalsource.on.the.road.sms.R$drawable: R$drawable()
+net.tidalsource.on.the.road.sms.R$id
+net.tidalsource.on.the.road.sms.R$id: int aboutImage
+net.tidalsource.on.the.road.sms.R$id: int aboutText1
+net.tidalsource.on.the.road.sms.R$id: int aboutText2
+net.tidalsource.on.the.road.sms.R$id: int aboutText3
+net.tidalsource.on.the.road.sms.R$id: int aboutText4
+net.tidalsource.on.the.road.sms.R$id: int aboutText5
+net.tidalsource.on.the.road.sms.R$id: int aboutText6
+net.tidalsource.on.the.road.sms.R$id: int afterhoursLayout
+net.tidalsource.on.the.road.sms.R$id: int btnCancel
+net.tidalsource.on.the.road.sms.R$id: int btnMode
+net.tidalsource.on.the.road.sms.R$id: int btnPlay
+net.tidalsource.on.the.road.sms.R$id: int btnRecord
+net.tidalsource.on.the.road.sms.R$id: int btnReply1
+net.tidalsource.on.the.road.sms.R$id: int btnReply2
+net.tidalsource.on.the.road.sms.R$id: int btnReplyMenu
+net.tidalsource.on.the.road.sms.R$id: int btnSpeak
+net.tidalsource.on.the.road.sms.R$id: int btnStop
+net.tidalsource.on.the.road.sms.R$id: int listView1
+net.tidalsource.on.the.road.sms.R$id: int menu_about
+net.tidalsource.on.the.road.sms.R$id: int menu_preferences
+net.tidalsource.on.the.road.sms.R$id: int playingButtonBody
+net.tidalsource.on.the.road.sms.R$id: int playingButtonImage
+net.tidalsource.on.the.road.sms.R$id: int playingButtonTitle
+net.tidalsource.on.the.road.sms.R$id: int replyLayout
+net.tidalsource.on.the.road.sms.R$id: int text1
+net.tidalsource.on.the.road.sms.R$id: int textReplyMsg
+net.tidalsource.on.the.road.sms.R$id: int timePicker1
+net.tidalsource.on.the.road.sms.R$id: int volumeBar
+net.tidalsource.on.the.road.sms.R$id: R$id()
+net.tidalsource.on.the.road.sms.R$layout
+net.tidalsource.on.the.road.sms.R$layout: int about
+net.tidalsource.on.the.road.sms.R$layout: int dialog_replymessage
+net.tidalsource.on.the.road.sms.R$layout: int dialog_time_widget
+net.tidalsource.on.the.road.sms.R$layout: int playback
+net.tidalsource.on.the.road.sms.R$layout: int playback_button
+net.tidalsource.on.the.road.sms.R$layout: int replymenu
+net.tidalsource.on.the.road.sms.R$layout: int results
+net.tidalsource.on.the.road.sms.R$layout: int voice_reply
+net.tidalsource.on.the.road.sms.R$layout: R$layout()
+net.tidalsource.on.the.road.sms.R$menu
+net.tidalsource.on.the.road.sms.R$menu: int main
+net.tidalsource.on.the.road.sms.R$menu: R$menu()
+net.tidalsource.on.the.road.sms.R$string
+net.tidalsource.on.the.road.sms.R$string: int AFTER_HOURS_SUMMARY_A
+net.tidalsource.on.the.road.sms.R$string: int AFTER_HOURS_SUMMARY_B
+net.tidalsource.on.the.road.sms.R$string: int APP_MODE_TEXT_0
+net.tidalsource.on.the.road.sms.R$string: int APP_MODE_TEXT_1
+net.tidalsource.on.the.road.sms.R$string: int APP_MODE_TEXT_2
+net.tidalsource.on.the.road.sms.R$string: int BUTTON_CANCEL
+net.tidalsource.on.the.road.sms.R$string: int BUTTON_OK
+net.tidalsource.on.the.road.sms.R$string: int BUTTON_YES
+net.tidalsource.on.the.road.sms.R$string: int DEFAULT_REPLY_MSG_1
+net.tidalsource.on.the.road.sms.R$string: int DEFAULT_REPLY_MSG_2
+net.tidalsource.on.the.road.sms.R$string: int INSTALL_TTS_DIALOG_MESSAGE
+net.tidalsource.on.the.road.sms.R$string: int INSTALL_TTS_DIALOG_TITLE
+net.tidalsource.on.the.road.sms.R$string: int MENU_PREFERENCES
+net.tidalsource.on.the.road.sms.R$string: int MESSAGE_SENT_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int MESSAGE_SENT_TOAST
+net.tidalsource.on.the.road.sms.R$string: int MODE_DESCRIPTION_1
+net.tidalsource.on.the.road.sms.R$string: int MODE_DESCRIPTION_2
+net.tidalsource.on.the.road.sms.R$string: int MODE_IS_ACTIVE
+net.tidalsource.on.the.road.sms.R$string: int PLAYBACK_LOADING
+net.tidalsource.on.the.road.sms.R$string: int PLAYBACK_NEW_MESSAGE
+net.tidalsource.on.the.road.sms.R$string: int PLAYBACK_STOPPED
+net.tidalsource.on.the.road.sms.R$string: int STT_DEFAULT_LANGUAGE
+net.tidalsource.on.the.road.sms.R$string: int STT_DEFAULT_TEXT
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_1
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_2
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_3
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_4
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_5
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_6
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_7
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_8
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_9
+net.tidalsource.on.the.road.sms.R$string: int STT_ERROR_TOAST
+net.tidalsource.on.the.road.sms.R$string: int STT_LOADING_LIST
+net.tidalsource.on.the.road.sms.R$string: int STT_NOT_FOUND
+net.tidalsource.on.the.road.sms.R$string: int STT_NO_EXTRAS
+net.tidalsource.on.the.road.sms.R$string: int STT_NO_RESULTS_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int STT_SPEAK_BUTTON
+net.tidalsource.on.the.road.sms.R$string: int STT_SPEAK_TITLE
+net.tidalsource.on.the.road.sms.R$string: int TTS_BODY_A_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int TTS_BODY_B_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int TTS_INTRO_A_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int TTS_INTRO_B_SPOKEN
+net.tidalsource.on.the.road.sms.R$string: int TTS_NOT_FOUND
+net.tidalsource.on.the.road.sms.R$string: int XML_DIALOG_HINT
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_AFTER_HOURS_END
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_AFTER_HOURS_NAME
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_AFTER_HOURS_START
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_AFTER_HOURS_SUMMARY
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_AFTER_HOURS_TITLE
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_LANGUAGE_DIALOGTITLE
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_LANGUAGE_TITLE
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_RECORD_DIALOGTITLE
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_RECORD_NAME
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_RECORD_TITLE
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_REPLY_MSG_1
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_REPLY_MSG_2
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_REPLY_NAME
+net.tidalsource.on.the.road.sms.R$string: int XML_PREF_TOP
+net.tidalsource.on.the.road.sms.R$string: int XML_QUICK_REPLY_1
+net.tidalsource.on.the.road.sms.R$string: int XML_QUICK_REPLY_2
+net.tidalsource.on.the.road.sms.R$string: int XML_RECORD_AGAIN
+net.tidalsource.on.the.road.sms.R$string: int XML_REPLY_BUTTON
+net.tidalsource.on.the.road.sms.R$string: int XML_STT
+net.tidalsource.on.the.road.sms.R$string: int about1
+net.tidalsource.on.the.road.sms.R$string: int about2
+net.tidalsource.on.the.road.sms.R$string: int about3
+net.tidalsource.on.the.road.sms.R$string: int about4
+net.tidalsource.on.the.road.sms.R$string: int about5
+net.tidalsource.on.the.road.sms.R$string: int about6
+net.tidalsource.on.the.road.sms.R$string: int app_name
+net.tidalsource.on.the.road.sms.R$string: R$string()
+net.tidalsource.on.the.road.sms.R$style
+net.tidalsource.on.the.road.sms.R$style: int AppTheme
+net.tidalsource.on.the.road.sms.R$style: int button
+net.tidalsource.on.the.road.sms.R$style: int playbackButton
+net.tidalsource.on.the.road.sms.R$style: int seekbar
+net.tidalsource.on.the.road.sms.R$style: R$style()
+net.tidalsource.on.the.road.sms.R$xml
+net.tidalsource.on.the.road.sms.R$xml: int preferences
+net.tidalsource.on.the.road.sms.R$xml: R$xml()
+net.tidalsource.on.the.road.sms.Replying
+net.tidalsource.on.the.road.sms.Replying: Replying()
+net.tidalsource.on.the.road.sms.Replying: void onCreate(android.os.Bundle)
+net.tidalsource.on.the.road.sms.Replying: void onResume()
+net.tidalsource.on.the.road.sms.Replying: boolean onCreateOptionsMenu(android.view.Menu)
+net.tidalsource.on.the.road.sms.Replying: boolean onOptionsItemSelected(android.view.MenuItem)
+net.tidalsource.on.the.road.sms.Replying: void defaultReplyMsgIntent(java.lang.String,java.lang.String)
+net.tidalsource.on.the.road.sms.Replying: void onClick(android.view.View)
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification: Replying$asyncReplyNotification(net.tidalsource.on.the.road.sms.Replying)
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification: java.lang.Boolean doInBackground(java.lang.Void[])
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification: void onPostExecute(java.lang.Boolean)
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification: void onPostExecute(java.lang.Object)
+net.tidalsource.on.the.road.sms.Replying$asyncReplyNotification: java.lang.Object doInBackground(java.lang.Object[])
+net.tidalsource.on.the.road.sms.SmsReceiver
+net.tidalsource.on.the.road.sms.SmsReceiver: SmsReceiver()
+net.tidalsource.on.the.road.sms.SmsReceiver: void onReceive(android.content.Context,android.content.Intent)
+net.tidalsource.on.the.road.sms.Voicereply
+net.tidalsource.on.the.road.sms.Voicereply: Voicereply()
+net.tidalsource.on.the.road.sms.Voicereply: void onCreate(android.os.Bundle)
+net.tidalsource.on.the.road.sms.Voicereply: void onResume()
+net.tidalsource.on.the.road.sms.Voicereply: void onClick(android.view.View)
+net.tidalsource.on.the.road.sms.Voicereply: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+net.tidalsource.on.the.road.sms.Voicereply: void voiceReplyMsgIntent(java.lang.String,java.lang.String)
+net.tidalsource.on.the.road.sms.Voicereply: void onPause()
+net.tidalsource.on.the.road.sms.Voicereply: void onDestroy()
+org.acra.ReportField: org.acra.ReportField[] values()
+org.acra.ReportField: org.acra.ReportField valueOf(java.lang.String)
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode[] values()
+org.acra.ReportingInteractionMode: org.acra.ReportingInteractionMode valueOf(java.lang.String)
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType[] values()
+org.acra.collector.MediaCodecListCollector$CodecType: org.acra.collector.MediaCodecListCollector$CodecType valueOf(java.lang.String)

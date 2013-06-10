@@ -1,0 +1,49 @@
+
+    <RelativeLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/playingButtonTitle"
+            android:shadowColor="#000000"
+            android:shadowRadius="1.0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:paddingBottom="0dp"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:textSize="25dp" />
+        
+        <TextView
+            android:id="@+id/playingButtonBody"
+            android:shadowColor="#000000"
+            android:shadowRadius="1.0"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/playingButtonTitle"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/playingButtonImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btnstop" />
+
+    </RelativeLayout>

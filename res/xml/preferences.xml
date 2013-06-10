@@ -1,0 +1,44 @@
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:key="prefcatkey_playback" android:title="@string/XML_PREF_TOP">
+            <ListPreference 
+                android:key="pref100"
+                android:dialogTitle="@string/XML_PREF_LANGUAGE_DIALOGTITLE" 
+                android:title="@string/XML_PREF_LANGUAGE_TITLE"/>
+
+            <ListPreference 
+                android:key="pref113"
+                android:dialogTitle="@string/XML_PREF_RECORD_DIALOGTITLE" 
+                android:title="@string/XML_PREF_RECORD_NAME"/>
+            
+            <PreferenceScreen
+                android:title="@string/XML_PREF_AFTER_HOURS_TITLE"
+                android:summary="@string/XML_PREF_AFTER_HOURS_SUMMARY" > 
+                
+                <CheckBoxPreference 
+                    android:key="pref112" 
+                	android:title="@string/XML_PREF_AFTER_HOURS_TITLE" />
+                
+	            <Preference 
+    	            android:key="pref110" 
+                	android:title="@string/XML_PREF_AFTER_HOURS_START"  
+                	android:dependency="pref112" />
+            	<Preference 
+                	android:key="pref111" 
+                	android:title="@string/XML_PREF_AFTER_HOURS_END" 
+                	android:dependency="pref112" />
+            </PreferenceScreen>
+            
+        </PreferenceCategory>
+        
+        <PreferenceCategory 
+            android:key="prefcatkey_reply" 
+            android:title="@string/XML_PREF_REPLY_NAME">
+            <Preference 
+                android:key="pref102"
+                android:title="@string/XML_PREF_REPLY_MSG_1" />
+            <Preference 
+                android:key="pref103"
+                android:title="@string/XML_PREF_REPLY_MSG_2" />
+		</PreferenceCategory>
+    </PreferenceScreen>

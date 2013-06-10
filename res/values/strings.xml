@@ -1,0 +1,148 @@
+
+<resources>
+
+<!-- Application 	-->
+    <string name="app_name">On The Road SMS</string>
+    <string name="BUTTON_CANCEL">Cancel</string>
+    <string name="BUTTON_YES">Yes</string>
+    <string name="BUTTON_OK">OK</string>
+    <string name="INSTALL_TTS_DIALOG_MESSAGE">Required component for speech processing could not be found. \n\nThis comes pre-installed with most phones. \n\nWould you like to install it?</string>
+    <string name="INSTALL_TTS_DIALOG_TITLE">Install TextToSpeech engine?</string>
+    <string name="STT_ERROR">Error code: </string>
+    <string name="STT_NO_EXTRAS">No extras: </string>
+    <string name="STT_LOADING_LIST">Loading.. try again in a moment</string>
+    <string name="STT_DEFAULT_TEXT">Default (en-GB)</string>
+    <string name="STT_DEFAULT_LANGUAGE">en-GB</string>
+    <string name="MENU_PREFERENCES">Preferences</string>
+    
+<!-- About 	-->
+    <string name="about1">What does On The Road app do?</string>
+    <string name="about2">It reads your message back to you and allows for easier means of replying by \'quick reply\' buttons or voice recognition.</string>
+    <string name="about3">Why was it made?</string>
+    <string name="about4">For us who rather not fumble with our phones while driving/reading/snoozing in bed when a new SMS arrives.</string>
+    <string name="about5">For more information</string>
+    <string name="about6"><a href="http://www.tidalsource.net/ontheroad">www.tidalsource.net/OnTheRoad</a></string>
+    
+
+<!-- Preferences 	-->
+    <string name="AFTER_HOURS_SUMMARY_A">Stop receiving at this time</string>
+    <string name="AFTER_HOURS_SUMMARY_B">Resume functionality at this time</string>
+	<string name="XML_PREF_TOP">On The Road SMS Preferences</string>
+    <string name="XML_PREF_LANGUAGE_DIALOGTITLE">Select Language</string>
+    <string name="XML_PREF_LANGUAGE_TITLE">Playback language</string>
+    <string name="XML_PREF_RECORD_NAME">Recording language</string>
+    <string name="XML_PREF_RECORD_DIALOGTITLE">Select Language</string>
+    <string name="XML_PREF_RECORD_TITLE">Recording language</string>
+    <string name="XML_PREF_AFTER_HOURS_NAME">After hours</string>
+    <string name="XML_PREF_AFTER_HOURS_SUMMARY">Set quiet time</string>
+    <string name="XML_PREF_AFTER_HOURS_TITLE">Enable after hours</string>
+    <string name="XML_PREF_AFTER_HOURS_START">After hours start</string>
+    <string name="XML_PREF_AFTER_HOURS_END">After hours end</string>
+    <string name="XML_PREF_REPLY_NAME">Replying</string>
+    <string name="XML_PREF_REPLY_MSG_1">Quick reply #1</string>
+    <string name="XML_PREF_REPLY_MSG_2">Quick reply #2</string>    
+
+<!-- MyAudio 		-->
+    <string name="TTS_NOT_FOUND">Text To Speech component not found :(</string>
+    <string name="TTS_INTRO_A_SPOKEN">Message from, </string>
+    <string name="TTS_INTRO_B_SPOKEN"></string>
+    <string name="TTS_BODY_A_SPOKEN"></string>
+    <string name="TTS_BODY_B_SPOKEN"></string>
+
+<!-- Playback 		-->
+    <string name="PLAYBACK_NEW_MESSAGE">New Message</string>
+    <string name="PLAYBACK_LOADING">Loading</string>
+    <string name="PLAYBACK_STOPPED">Play Message</string>
+    <string name="APP_MODE_TEXT_0">MODE: Disabled</string>
+    <string name="APP_MODE_TEXT_1">MODE: Auto playback</string>
+    <string name="APP_MODE_TEXT_2">MODE: Bring to front</string>
+    <string name="MODE_DESCRIPTION_1">Play back incoming message</string>
+    <string name="MODE_DESCRIPTION_2">Open app on incoming message</string>
+    <string name="MODE_IS_ACTIVE"> is now active</string>
+    <string name="XML_REPLY_BUTTON">Reply</string>
+
+<!-- Replying 		-->
+    <string name="DEFAULT_REPLY_MSG_1">Dude, just cruisin in the car now, will get back to you later</string>
+    <string name="DEFAULT_REPLY_MSG_2">Ok, sounds like a plan!</string>
+    <string name="MESSAGE_SENT_SPOKEN">Message, sent</string>
+    <string name="MESSAGE_SENT_TOAST">Message sent</string>
+    <string name="XML_DIALOG_HINT">Enter reply message here</string>
+    <string name="XML_STT">Speech to Message</string>
+    <string name="XML_QUICK_REPLY_1">Quick reply 1</string>
+    <string name="XML_QUICK_REPLY_2">Quick reply 2</string>
+    	
+<!-- Voicereply 	-->
+    <string name="STT_NOT_FOUND">Speech recognizer not present..</string>
+    <string name="STT_SPEAK_TITLE">Recording </string>
+    <string name="STT_SPEAK_BUTTON">Speak now</string>
+	<string name="STT_ERROR_1">Network error</string>
+    <string name="STT_ERROR_2">Network timeout</string>
+    <string name="STT_ERROR_3">Audio error</string>
+    <string name="STT_ERROR_4">Server error</string>    
+    <string name="STT_ERROR_5">Client error</string>
+    <string name="STT_ERROR_6">Speech timeout</string>
+    <string name="STT_ERROR_7">Sorry, try again</string>
+    <string name="STT_ERROR_8">Error, recognzer is busy</string>
+    <string name="STT_ERROR_9">Insufficient permissions error</string>
+    <string name="STT_ERROR_TOAST">code : </string>
+    <string name="STT_NO_RESULTS_SPOKEN">No results</string>
+    <string name="XML_RECORD_AGAIN">Record again</string>
+    
+<!--  String Arrays -->
+	<string-array name="LANGUAGE_NAMES">
+		<item>Bulgarian (Bulgaria)</item>
+		<item>Catalan (Spain)</item>
+		<item>Czech (Czech Republic)</item>
+		<item>German (Germany)</item>
+		<item>English (Australia)</item>
+		<item>English (Canada)</item>
+		<item>English (United Kingdom)</item>
+		<item>English (India)</item>
+		<item>English (New Zealand)</item>
+		<item>English (United States)</item>
+		<item>English (South Africa)</item>
+		<item>Spanish (Spain)</item>
+		<item>Spanish (United States)</item>
+		<item>French (France)</item>
+		<item>Italian (Italy)</item>
+		<item>Japanese (Japan)</item>
+		<item>Korean (South Korea)</item>
+		<item>Norwegian Bokmål (Norway)</item>
+		<item>Dutch (Netherlands)</item>
+		<item>Polish (Poland)</item>
+		<item>Portuguese (Brazil)</item>
+		<item>Portuguese (Portugal)</item>
+		<item>Russian (Russia)</item>
+		<item>Swedish (Sweden)</item>
+		<item>Turkish (Turkey)</item>
+	</string-array>
+	
+	<string-array name="LANGUAGE_IDS">
+		<item>bg-BG</item>
+		<item>ca-ES</item>
+		<item>cs-CZ</item>
+		<item>de-DE</item>
+		<item>en-AU</item>
+		<item>en-CA</item>
+		<item>en-GB</item>
+		<item>en-IN</item>
+		<item>en-NZ</item>
+		<item>en-US</item>
+		<item>en-ZA</item>
+		<item>es-ES</item>
+		<item>es-US</item>
+		<item>fr-FR</item>
+		<item>it-IT</item>
+		<item>ja-JP</item>
+		<item>ko-KR</item>
+		<item>nb-NO</item>
+		<item>nl-NL</item>
+		<item>pl-PL</item>
+		<item>pt-BR</item>
+		<item>pt-PT</item>
+		<item>ru-RU</item>
+		<item>sv-SE</item>
+		<item>tr-TR</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,83 @@
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <ImageView
+            android:id="@+id/aboutImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_med" />
+
+        <TextView
+            android:id="@+id/aboutText1"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutImage"
+            android:text="@string/about1" />
+
+        <TextView
+            android:id="@+id/aboutText2"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutText1"
+            android:text="@string/about2" />
+
+        <TextView
+            android:id="@+id/aboutText3"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutText2"
+            android:text="@string/about3" />
+
+        <TextView
+            android:id="@+id/aboutText4"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutText3"
+        	android:text="@string/about4" />
+        
+        <TextView
+            android:id="@+id/aboutText5"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutText4"
+            android:text="@string/about5" />
+        
+        <TextView
+            android:id="@+id/aboutText6"
+            android:paddingLeft="5dp"
+            android:paddingBottom="20dp"
+            android:linksClickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/aboutText5"
+            android:text="@string/about6" />
+
+    </RelativeLayout>
+        </ScrollView>
+               
+    
