@@ -493,7 +493,9 @@ public class Playback extends Activity implements OnInitListener {
 			// So basically if a receiver started this activity, details about a new message is available through intent extra
 			if (waitForAudioOnInit) {
 				if (BuildConfig.DEBUG) Log.v(CONST.TAG, TAG_CLASS + ": onInit(): waitForAudioOnInit");
-				preSpeakMessage(1500);
+				if ((Integer) app.myPrefs.getVal(CONST.APP_MODE) == CONST.MODE_AUTO_READ_MSG) {
+					preSpeakMessage(1500);
+				}
 				waitForAudioOnInit = false;
 			}
 			

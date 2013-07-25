@@ -18,8 +18,8 @@
 <!-- About 	-->
     <string name="about1">What does On The Road app do?</string>
     <string name="about2">It reads your message back to you and allows for easier means of replying by \'quick reply\' buttons or voice recognition.</string>
-    <string name="about3">Why was it made?</string>
-    <string name="about4">For us who rather not fumble with our phones while driving/reading/snoozing in bed when a new SMS arrives.</string>
+    <string name="about3">UPDATES</string>
+    <string name="about4">Resolved issue where SMS readout engages even when in Bring to Front mode.</string>
     <string name="about5">For more information</string>
     <string name="about6"><a href="http://www.tidalsource.net/ontheroad">www.tidalsource.net/OnTheRoad</a></string>
     
